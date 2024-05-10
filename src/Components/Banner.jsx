@@ -1,6 +1,4 @@
 import { useState } from "react";
-import { AiFillGithub } from "react-icons/ai";
-import { FaLinkedin, FaFacebookSquare, FaInstagram } from "react-icons/fa";
 import BMA from "./Image/BMA.jpg"; // Corrected import
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -24,45 +22,11 @@ const Banner = () => {
           data-aos="fade-right"
           className="text-[52px] font-semibold mb-8 leading-normal"
         >
-          Hi I'm <span className="text-blue-400">Phuc Vy </span>
+        <span className="text-blue-400">BMA </span> Xin chào
         </h1>
         <p data-aos="fade-left" className="text-[25px]">
-          I am a student of PTIT. Here is some information about me.
+          Cảm ơn các bạn đã ghé thăm CLB chúng mình !
         </p>
-        <div className="flex mt-8 gap-2">
-          <div className="flex items-center justify-center">
-            <div className="flex space-x-2">
-              <a
-                href="https://github.com/pvy-it-tdh"
-                className="text-blue-400 hover:text-blue-300 rounded-full glow p-2"
-                target="_blank"
-              >
-                <AiFillGithub className="text-[28px]" />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/ph%C3%BAc-vy-l%C3%AA-th%E1%BA%A1ch-645b882ab/"
-                className="text-blue-400 hover:text-blue-300 rounded-full glow p-2"
-                target="_blank"
-              >
-                <FaLinkedin className="text-[28px]" />
-              </a>
-              <a
-                href="https://www.facebook.com/profile.php?id=100076464913673"
-                className="text-blue-400 hover:text-blue-300 rounded-full glow p-2"
-                target="_blank"
-              >
-                <FaFacebookSquare className="text-[28px]" />
-              </a>
-              <a
-                href="https://www.instagram.com/phucvy.vyphuc/"
-                className="text-blue-400 hover:text-blue-300 rounded-full glow p-2"
-                target="_blank"
-              >
-                <FaInstagram className="text-[28px]" />
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
       <img
         src={BMA}

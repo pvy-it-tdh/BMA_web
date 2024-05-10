@@ -1,3 +1,4 @@
+import Activities from "./Components/Activities";
 import Home from "./Components/Home";
 // import Activities from "./Components/Activities";
 // import Members from "./Components/Members";
@@ -17,7 +18,9 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
+
       </BrowserRouter> */}
+      <Activities/>
     </div>
   );
 }
