@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from "./Layouts/Header";
 import Home from "./Components/Home";
 import Activities from "./Components/Activities";
@@ -10,12 +10,12 @@ function App() {
       <div className="App">
         <Nav />
         <Home/>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/activities" component={Activities} />
-          <Route path="/members" component={Members} />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/activities" element={<Activities/>} />
+          <Route path="/members" element={<Members/>} />
           {/* <Route path="/contact" component={Contact} /> */}
-        </Switch>
+        </Routes>
       </div>
     </BrowserRouter>
   );
