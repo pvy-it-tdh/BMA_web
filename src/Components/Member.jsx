@@ -1,23 +1,15 @@
-import React from "react";
-
+import Card from "./Card";
+import "./Card.css";
+import PhucVy from"./Image/pvy.jpg"
 const Members = () => {
   return (
-    <section className="members" id="members">
-      <h2>Thành viên</h2>
-      <div className="member-list">
-        <div className="member">
-          <h3>Tên thành viên 1</h3>
-          <p>Chức vụ/Vai trò</p>
-          <p>Liên hệ: [Thông tin liên hệ]</p>
-        </div>
-        <div className="member">
-          <h3>Tên thành viên 2</h3>
-          <p>Chức vụ/Vai trò</p>
-          <p>Liên hệ: [Thông tin liên hệ]</p>
-        </div>
-        {/* ... */}
-      </div>
-    </section>
+    <>
+      <Card
+        imageUrl={PhucVy}
+        title="Product 1"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      />
+    </>
   );
 };
 

@@ -1,26 +1,23 @@
-
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Nav from "./Layouts/Header";
 import Home from "./Components/Home";
-// import Activities from "./Components/Activities";
-// import Members from "./Components/Members";
-// import Contact from "./Components/Contact";
-
+import Activities from "./Components/Activities";
+import Members from "./Components/Activities";
 
 function App() {
   return (
-    <div className="bg-slate-900">
-      <Home />
-      {/* <BrowserRouter>
-        <div className="App">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/activities" element={<Activities />} />
-          <Route path="/members" element={<Members />} />
-          <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </div>
-
-      </BrowserRouter> */}
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Nav />
+        <Home/>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/activities" component={Activities} />
+          <Route path="/members" component={Members} />
+          {/* <Route path="/contact" component={Contact} /> */}
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
