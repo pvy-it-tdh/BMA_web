@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import BMA from "./Image/BMA.jpg"; // Corrected import
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const Banner = () => {
   useEffect(() => {
@@ -16,13 +15,15 @@ const Banner = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+    <div
+      className="bg-slate-700 lg:px-56 px-10 lg:py-0 py-50 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center"
+    >
       <div className="h-full lg:py-0 flex flex-col justify-center lg:items-start items-center text-white">
         <h1
           data-aos="fade-right"
           className="text-[52px] font-semibold mb-8 leading-normal"
         >
-        <span className="text-blue-400">BMA </span> Xin chào
+          <span className="text-blue-400">BMA </span> Xin chào
         </h1>
         <p data-aos="fade-left" className="text-[25px]">
           Cảm ơn các bạn đã ghé thăm CLB chúng mình !
