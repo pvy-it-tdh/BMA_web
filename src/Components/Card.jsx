@@ -2,7 +2,7 @@
 import "./Card.css";
 
 function Card(props) {
-  const { imageUrl, title, description } = props;
+  const { imageUrl,title, description } = props;
 
   return (
     <div className="card">

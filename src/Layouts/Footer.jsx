@@ -3,8 +3,6 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-slate-800 text-white lg:px-40 px-4 py-6">
-      {" "}
-      {/* Giảm chiều cao tại đây */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <div className="md:col-span-1 lg:col-span-2">
           <span className="text-lg font-semibold text-blue-500 py-2 uppercase">

@@ -21,11 +21,11 @@ const Banner = () => {
           data-aos="fade-right"
           className="text-[52px] font-semibold mb-2  leading-normal"
         >
-          <span className="text-blue-400">BMA </span>
+          <span className="text-blue-400">BMA</span>
         </h1>
         <h1
           data-aos="fade-right"
-          className="text-[52px] font-semibold mb-8 leading-normal"
+          className="text-[45px] font-semibold mb-8 leading-normal"
         >
           Xin chào
         </h1>
