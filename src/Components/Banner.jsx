@@ -19,18 +19,20 @@ const Banner = () => {
       <div className="h-full lg:py-0 flex flex-col justify-center lg:items-start items-center text-white">
         <h1
           data-aos="fade-right"
-          className="text-[52px] font-semibold mb-2  leading-normal"
+          className="text-[40px] font-semibold mb-2 leading-normal"
         >
-          <span className="text-blue-400">BMA</span>
+          Welcome to
         </h1>
         <h1
           data-aos="fade-right"
-          className="text-[45px] font-semibold mb-8 leading-normal"
+          className="text-[52px] font-semibold mb-8 leading-normal"
         >
-          Xin chào
+          <span className="text-blue-400">BMA</span>
         </h1>
         <p data-aos="fade-left" className="text-[25px]">
-          Cảm ơn các bạn đã ghé thăm CLB chúng mình !
+          BMA ( Business Marketing Accounting ) <br />
+          CLB thuộc Khoa QTKD2 - Học viện Công nghệ Bưu chính Viễn thông cơ sở
+          tại TP. Hồ Chí Minh.
         </p>
       </div>
       <img
