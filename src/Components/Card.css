@@ -1,15 +1,24 @@
+/* Card.css */
 .card {
+    position: relative;
     width: 300px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.card:hover {
+    transform: rotateY(10deg) scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
 
 .card-image {
     width: 100%;
-    height: auto;
-    border-bottom: 1px solid #ddd;
+    height: 200px;
+    object-fit: cover;
 }
 
 .card-content {
@@ -18,12 +27,12 @@
 
 .card-title {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1.5rem;
     color: #333;
 }
 
 .card-description {
     margin: 10px 0 0;
-    font-size: 1em;
+    font-size: 1rem;
     color: #666;
 }
