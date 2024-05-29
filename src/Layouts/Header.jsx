@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../Components/Image/logo.jpg";
+import Logo from "../Components/Image/lg.png";
 
 const Nav = () => {
   return (
@@ -10,7 +10,7 @@ const Nav = () => {
             <img
               src={Logo}
               alt="Logo"
-              className="h-10 w-auto md:h-12 lg:h-16 xl:h-20"
+              className="h-9 w-auto md:h-10 lg:h-12 xl:h-18"
             />
           </Link>
         </div>
