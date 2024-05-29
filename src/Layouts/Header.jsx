@@ -1,5 +1,5 @@
-
 import { Link } from "react-router-dom";
+import Logo from "../Components/Image/logo.jpg";
 
 const Nav = () => {
   return (
@@ -7,7 +7,11 @@ const Nav = () => {
       <div className="h-10vh flex justify-between z-50 text-white bg-black lg:py-5 px-20 py-4 border-b border-slate-800">
         <div className="flex items-center flex-1">
           <Link to="/" className="text-3xl font-bold">
-            BMA
+            <img
+              src={Logo}
+              alt="Logo"
+              className="h-10 w-auto md:h-12 lg:h-16 xl:h-20"
+            />
           </Link>
         </div>
         <div className="hidden lg:flex lg:items-center lg:flex-1 lg:justify-end lg:font-normal">
