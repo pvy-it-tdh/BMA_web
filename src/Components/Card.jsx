@@ -1,15 +1,20 @@
 import "./Card.css";
 
-function Card(props) {
-  const { imageUrl, description } = props;
-
+function Card({ imageUrl, description }) {
   return (
-    <div className="card">
-      <img src={imageUrl} className="card-image" />
+    <div className="card" style={{ backgroundImage: `url(${imageUrl})` }}>
       <div className="card-content">
-        <p className="card-description">{description}</p>
+        <h2 className="card-title">{description}</h2>
+        <p className="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
+          culpa.
+        </p>
+        <a href="#" className="button">
+          Learn More
+        </a>
       </div>
     </div>
   );
 }
+
 export default Card;
