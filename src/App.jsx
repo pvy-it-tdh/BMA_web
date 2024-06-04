@@ -4,7 +4,7 @@ import Activities from "./Components/Activities";
 import Member from "./Components/Member";
 import Nav from "./Layouts/Header";
 import Footer from "./Layouts/Footer";
-
+// import { ContactUs } from "./Components/Contact";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/members" element={<Member />} />
-          {/* <Route path="/contact" component={Contact} /> */}
+          {/* <Route path="/contact" component={<ContactUs />} /> */}
         </Routes>
         <Footer />
       </div>
