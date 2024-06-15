@@ -1,9 +1,23 @@
 .member-container {
     padding: 2rem;
+    background-color: hsl(216, 9%, 10%);
+    text-align: center;
 }
 
-@media (min-width: 768px) {
-    .member-container .space-y-4 {
-        margin-top: 0;
-    }
+.member-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: hsl(9, 90%, 61%);
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card-group+.card-group {
+    margin-top: 2rem;
 }

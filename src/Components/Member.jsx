@@ -4,25 +4,37 @@ import voImg from "./Image/vo.jpg";
 import diemImg from "./Image/Diem.jpg";
 import loanImg from "./Image/Loan.jpg";
 import pvyImg from "./Image/pvy.jpg";
-import "./Member.css"; // Assuming additional styling might be in this file
+import "./Member.css";
 
 const Member = () => {
   return (
-    <div className="bg-zinc-900 member-container">
-      <h1 className="text-[30px] font-semibold mb-4 text-center text-cyan-400">
-        Ban Chủ Nhiệm của CLB BMA
-      </h1>
-      <div className="flex flex-wrap justify-center space-x-4 space-y-4 md:space-y-0">
-        <Card imageUrl={khanhImg} description="Khánh" />
-        <Card imageUrl={diemImg} description="Nguyễn Thị Thúy Diễm" />
-        <Card imageUrl={voImg} description="Nguyễn Nhức Võ" />
+    <div className="member-container">
+      <h1 className="member-title">Ban Chủ Nhiệm của CLB BMA</h1>
+      <div className="card-group">
+        <Card
+          imageUrl={khanhImg}
+          title="Ngô Trần Văn Khánh"
+          description="Phó Chủ Nhiệm"
+        />
+        <Card
+          imageUrl={diemImg}
+          title="Nguyễn Thị Thúy Diễm"
+          description="Chủ Nhiệm"
+        />
+        <Card imageUrl={voImg} title="Nguyễn Nhức Võ" description="Ủy viên" />
       </div>
-      <h1 className="text-[30px] font-semibold mt-8 mb-4 text-center text-cyan-400">
-        Ban Truyền Thông của CLB BMA
-      </h1>
-      <div className="flex flex-wrap justify-center space-x-4 space-y-4 md:space-y-0">
-        <Card imageUrl={pvyImg} description="Lê Thạch Phúc Vy" />
-        <Card imageUrl={loanImg} description="Vũ Nguyễn Ngọc Loan" />
+      <h1 className="member-title">Ban Truyền Thông của CLB BMA</h1>
+      <div className="card-group">
+        <Card
+          imageUrl={pvyImg}
+          title="Lê Thạch Phúc Vy"
+          description="Thành viên"
+        />
+        <Card
+          imageUrl={loanImg}
+          title="Vũ Nguyễn Ngọc Loan"
+          description="Trưởng Ban Truyền Thông"
+        />
       </div>
     </div>
   );

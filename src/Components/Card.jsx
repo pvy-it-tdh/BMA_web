@@ -1,17 +1,18 @@
 import "./Card.css";
 
-function Card({ imageUrl, description }) {
+function Card({ imageUrl, title, description }) {
   return (
-    <div className="card" style={{ backgroundImage: `url(${imageUrl})` }}>
+    <div className="card">
+      <div
+        className="card-image"
+        style={{ backgroundImage: `url(${imageUrl}) cover` }}
+      ></div>
       <div className="card-content">
-        <h2 className="card-title">{description}</h2>
-        <p className="card-body">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio,
-          culpa.
-        </p>
-        <a href="#" className="button">
+        <h2 className="card-title">{title}</h2>
+        <p className="card-body">{description}</p>
+        {/* <a href="#" className="button">
           Learn More
-        </a>
+        </a> */}
       </div>
     </div>
   );
