@@ -1,0 +1,19 @@
+.activities-container {
+    padding: 2rem;
+    background-color: hsl(216, 9%, 10%);
+    text-align: center;
+}
+
+.activities-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: hsl(9, 90%, 61%);
+}
+
+.activities-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
