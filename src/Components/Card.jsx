@@ -1,11 +1,14 @@
-import "./Card.css"; // Import your CSS file for styling
+import "./Card.css";
 
 function Card({ imageUrl, title, description }) {
   return (
     <div className="card">
       <div
         className="card-image"
-        style={{ backgroundImage: `url(${imageUrl})`, backgroundSize: "cover" }}
+        style={{
+          backgroundImage: `url(${imageUrl})`,
+          backgroundSize: "cover",
+        }}
       ></div>
       <div className="card-content">
         <h2 className="card-title">{title}</h2>

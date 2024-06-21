@@ -15,21 +15,21 @@ const Banner = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="h-screen bg-zinc-900 lg:px-56 px-10 lg:py-0 py-50 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
-      <div className="h-full lg:py-0 flex flex-col justify-center lg:items-start items-center text-white">
+    <div className="h-screen bg-zinc-900 lg:px-56 px-10 lg:py-0 py-10 lg:text-start text-center flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-28">
+      <div className="flex flex-col justify-center items-center lg:items-start text-white">
         <h1
           data-aos="fade-right"
-          className="text-[40px] font-semibold mb-2 leading-normal"
+          className="text-3xl lg:text-4xl font-semibold mb-2 leading-normal"
         >
           Welcome to
         </h1>
         <h1
           data-aos="fade-right"
-          className="text-[52px] font-semibold mb-8 leading-normal"
+          className="text-5xl lg:text-6xl font-semibold mb-8 leading-normal"
         >
           <span className="text-blue-400">BMA</span>
         </h1>
-        <p data-aos="fade-left" className="text-[25px]">
+        <p data-aos="fade-left" className="text-lg lg:text-xl">
           BMA ( Business Marketing Accounting ) <br />
           CLB thuộc Khoa QTKD2 - Học viện Công nghệ Bưu chính Viễn thông cơ sở
           tại TP. Hồ Chí Minh.
@@ -37,18 +37,18 @@ const Banner = () => {
       </div>
       <img
         src={BMA}
-        className="rounded-full border-2 p-1 computer-img"
+        className="rounded-lg border-2 p-1 computer-img"
         alt=""
         data-aos="fade-up"
         style={{
-          width: "500px",
-          height: "290px",
+          maxWidth: "90%",
+          height: "auto",
           objectFit: "cover",
           transition: "transform 0.3s ease-in-out",
           boxShadow: isHovered ? "0 0 15px rgb(63, 114, 165)" : "none",
-          transform: isHovered ? "scale(1.5)" : "scale(1)",
-          borderRadius: "0",
-          marginLeft: "20px", // Adjusted margin-left value
+          transform: isHovered ? "scale(1.1)" : "scale(1)",
+
+          marginLeft: "0", // Adjusted margin-left value to 0
         }}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
