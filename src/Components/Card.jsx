@@ -1,18 +1,15 @@
-import "./Card.css";
+import "./Card.css"; // Import your CSS file for styling
 
 function Card({ imageUrl, title, description }) {
   return (
     <div className="card">
       <div
         className="card-image"
-        style={{ backgroundImage: `url(${imageUrl}) cover` }}
+        style={{ backgroundImage: `url(${imageUrl})`, backgroundSize: "cover" }}
       ></div>
       <div className="card-content">
         <h2 className="card-title">{title}</h2>
         <p className="card-body">{description}</p>
-        {/* <a href="#" className="button">
-          Learn More
-        </a> */}
       </div>
     </div>
   );

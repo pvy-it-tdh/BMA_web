@@ -26,14 +26,14 @@ const Member = () => {
       <h1 className="member-title">Ban Truyền Thông của CLB BMA</h1>
       <div className="card-group">
         <Card
-          imageUrl={pvyImg}
-          title="Lê Thạch Phúc Vy"
-          description="Thành viên"
-        />
-        <Card
           imageUrl={loanImg}
           title="Vũ Nguyễn Ngọc Loan"
-          description="Trưởng Ban Truyền Thông"
+          description="Trưởng ban"
+        />
+        <Card
+          imageUrl={pvyImg}
+          title="Vũ Nguyễn Ngọc Loan"
+          description="Trưởng ban"
         />
       </div>
     </div>

@@ -1,7 +1,7 @@
 :root {
     --clr-neutral-900: hsl(207, 19%, 9%);
     --clr-neutral-100: hsl(0, 0%, 100%);
-    --clr-accent-400: hsl(142, 90%, 61%);
+    --clr-accent-400: hsl(203, 75%, 32%);
 }
 
 .card {
@@ -11,9 +11,7 @@
     overflow: hidden;
     transition: transform 500ms ease;
     width: 300px;
-    /* Fixed width */
     height: 450px;
-    /* Fixed height */
     margin: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -27,15 +25,12 @@
 
 .card-image {
     flex: 0 0 250px;
-    /* Fixed height for image */
-    background-size: cover;
     background-position: center;
 }
 
 .card-content {
     flex: 1 0 auto;
     padding: 1.5rem;
-    background: rgba(0, 0, 0, 0.6);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +44,6 @@
     position: relative;
     width: max-content;
     margin: 0 auto 1rem;
-    /* Center title and add bottom margin */
 }
 
 .card-title::after {
@@ -66,7 +60,7 @@
 
 .card:hover .card-title::after,
 .card:focus-within .card-title::after {
-    transform: scaleX(1);
+    transform: scaleX(1.5);
 }
 
 .card-body {
@@ -78,7 +72,6 @@
 .button {
     display: inline-block;
     margin-top: auto;
-    /* Push button to the bottom */
     padding: 0.5em 1.25em;
     color: var(--clr-neutral-900);
     background-color: var(--clr-accent-400);
@@ -93,7 +86,6 @@
     background-color: var(--clr-neutral-100);
 }
 
-/* Responsive adjustments */
 @media (hover) {
     .card-content {
         transform: translateY(65%);
