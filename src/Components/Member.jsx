@@ -30,11 +30,7 @@ const Member = () => {
           title="Vũ Nguyễn Ngọc Loan"
           description="Trưởng ban"
         />
-        <Card
-          imageUrl={pvyImg}
-          title="Vũ Nguyễn Ngọc Loan"
-          description="Trưởng ban"
-        />
+        <Card imageUrl={pvyImg} title="Phúc Vy" description="Trưởng ban" />
       </div>
     </div>
   );
