@@ -21,7 +21,7 @@ import "./Activities.css";
 const Activities = () => {
   return (
     <div className="activities-container">
-      <h1 className="activities-title">BIGGAME</h1>
+      <h1 className="activities-title mt-5">BIGGAME</h1>
       <div className="activities-group">
         <Card
           imageUrl={Biggame1}
@@ -39,7 +39,7 @@ const Activities = () => {
           description="Là 1 sự kiện thường niên và lớn nhất của câu lạc bộ"
         />
       </div>
-      <h1 className="activities-title">QUÂN SỰ CÙNG BMA</h1>
+      <h1 className="activities-title mt-5">QUÂN SỰ CÙNG BMA</h1>
       <div className="activities-group">
         <Card
           imageUrl={QuanSu1}
@@ -57,7 +57,7 @@ const Activities = () => {
           description="Là 1 sự kiện thường niên và lớn nhất của câu lạc bộ"
         />
       </div>
-      <h1 className="activities-title">KẾT NẠP THÀNH VIÊN</h1>
+      <h1 className="activities-title mt-5">KẾT NẠP THÀNH VIÊN</h1>
       <div className="activities-group">
         <Card
           imageUrl={KetNap1}
@@ -75,7 +75,7 @@ const Activities = () => {
           description="Là 1 sự kiện thường niên và lớn nhất của câu lạc bộ"
         />
       </div>
-      <h1 className="activities-title">ĐẠI HỘI</h1>
+      <h1 className="activities-title mt-5">ĐẠI HỘI</h1>
       <div className="activities-group">
         <Card
           imageUrl={DaiHoi}
@@ -93,7 +93,7 @@ const Activities = () => {
           description="Là 1 sự kiện thường niên và lớn nhất của câu lạc bộ"
         />
       </div>
-      <h1 className="activities-title">PICNIC</h1>
+      <h1 className="activities-title mt-5">PICNIC</h1>
       <div className="activities-group">
         <Card
           imageUrl={Picnic}
@@ -111,7 +111,7 @@ const Activities = () => {
           description="Là 1 sự kiện thường niên và lớn nhất của câu lạc bộ"
         />
 
-        <h1 className="activities-title">TẤT NIÊN CÙNG BMA</h1>
+        <h1 className="activities-title mt-5">TẤT NIÊN CÙNG BMA</h1>
         <div className="activities-group">
           <Card
             imageUrl={Tatniem}
