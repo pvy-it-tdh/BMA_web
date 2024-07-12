@@ -2,8 +2,11 @@ import Card from "./Card";
 import khanhImg from "./Image/khanh.jpg";
 import voImg from "./Image/vo.jpg";
 import diemImg from "./Image/Diem.jpg";
-import loanImg from "./Image/Loan.jpg";
-import pvyImg from "./Image/pvy.jpg";
+import loanImg from "./Image/cLoan.jpg";
+import tranImg from "./Image/tran.jpg";
+import phongImg from "./Image/phong.jpg";
+import phucImg from "./Image/phuc.jpg";
+import cuongImg from "./Image/Cuong.jpg";
 import "./Member.css";
 
 const Member = () => {
@@ -30,7 +33,25 @@ const Member = () => {
           title="Vũ Nguyễn Ngọc Loan"
           description="Trưởng ban"
         />
-        <Card imageUrl={pvyImg} title="Phúc Vy" description="Trưởng ban" />
+        <Card imageUrl={tranImg} title="Cao Bảo Trân" description="Phó Ban" />
+      </div>
+      <h1 className="member-title">Ban Nội Dung của CLB BMA</h1>
+      <div className="card-group">
+        <Card
+          imageUrl={phucImg}
+          title="Lê Nguyễn Vĩnh Phúc"
+          description="Phó Ban"
+        />
+        <Card
+          imageUrl={phongImg}
+          title="Lê Hồ Tấn Phong"
+          description="Trưởng Ban"
+        />
+        <Card
+          imageUrl={cuongImg}
+          title="Nguyễn Vũ Cường"
+          description="Phó Ban"
+        />
       </div>
     </div>
   );
