@@ -7,6 +7,7 @@ import tranImg from "./Image/tran.jpg";
 import phongImg from "./Image/phong.jpg";
 import phucImg from "./Image/phuc.jpg";
 import cuongImg from "./Image/Cuong.jpg";
+import pvy from "./Image/phucvy.jpg";
 import "./Member.css";
 
 const Member = () => {
@@ -53,6 +54,12 @@ const Member = () => {
           description="Phó Ban"
         />
       </div>
+      <h1 className="member-title">Các Thành Viên Của BMA</h1>
+      <Card
+        imageUrl={pvy}
+        title="Lê Thạch Phúc Vy"
+        description="Thành viên ban truyền thông kiêm Coder đến từ BMA"
+      />
     </div>
   );
 };
