@@ -8,7 +8,7 @@ import phongImg from "./Image/phong.jpg";
 import phucImg from "./Image/phuc.jpg";
 import cuongImg from "./Image/Cuong.jpg";
 import pvy from "./Image/phucvy.jpg";
-import "./Member.css";
+import "../styles/Member.css";
 
 const Member = () => {
   return (

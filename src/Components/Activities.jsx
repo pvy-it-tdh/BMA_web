@@ -17,7 +17,7 @@ import Daihoi2 from "./Image/daihoi2.jpg";
 import Tatniem from "./Image/tatnien.jpg";
 import Tatniem1 from "./Image/tatnien1.jpg";
 import Tatniem2 from "./Image/tatnien2.jpg";
-import "./Activities.css";
+import "../styles/Activities.css";
 const Activities = () => {
   return (
     <div className="activities-container">
