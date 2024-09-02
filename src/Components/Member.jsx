@@ -80,7 +80,7 @@ const Member = () => {
         />
         <Card
           imageUrl={tramy}
-          title="Trần Nguyễn Bảo Anh"
+          title="Nguyễn Thị Trà My"
           description="Thành viên"
         />
       </div>
