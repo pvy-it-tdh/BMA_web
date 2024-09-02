@@ -8,6 +8,11 @@ import phongImg from "./Image/phong.jpg";
 import phucImg from "./Image/phuc.jpg";
 import cuongImg from "./Image/Cuong.jpg";
 import pvy from "./Image/phucvy.jpg";
+import vlinh from "./Image/vietlinh.jpg";
+import thuyna from "./Image/thuyna.jpg";
+import binh from "./Image/binh.jpg";
+import baoanh from "./Image/baoanh.jpg";
+import tramy from "./Image/tramy.jpg";
 import "../styles/Member.css";
 
 const Member = () => {
@@ -55,11 +60,30 @@ const Member = () => {
         />
       </div>
       <h1 className="member-title">Các Thành Viên Của BMA</h1>
-      <Card
-        imageUrl={pvy}
-        title="Lê Thạch Phúc Vy"
-        description="Thành viên ban truyền thông kiêm Coder đến từ BMA"
-      />
+      <div className="card-group">
+        <Card
+          imageUrl={pvy}
+          title="Lê Thạch Phúc Vy"
+          description="Thành viên ban truyền thông kiêm Coder đến từ BMA"
+        />
+        <Card imageUrl={vlinh} title="Lý Việt Linh" description="Thành viên" />
+        <Card imageUrl={thuyna} title="Phạm Thúy Na" description="Thành viên" />
+        <Card
+          imageUrl={binh}
+          title="Nguyễn Vũ Thanh Bình"
+          description="Thành viên"
+        />
+        <Card
+          imageUrl={baoanh}
+          title="Trần Nguyễn Bảo Anh"
+          description="Thành viên"
+        />
+        <Card
+          imageUrl={tramy}
+          title="Trần Nguyễn Bảo Anh"
+          description="Thành viên"
+        />
+      </div>
     </div>
   );
 };
