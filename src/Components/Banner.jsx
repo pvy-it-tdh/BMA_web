@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import BMA from "./Image/BMA.jpg"; // Corrected import
+import BMA from "./Image/BMA.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

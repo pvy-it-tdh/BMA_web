@@ -13,6 +13,8 @@ import thuyna from "./Image/thuyna.jpg";
 import binh from "./Image/binh.jpg";
 import baoanh from "./Image/baoanh.jpg";
 import tramy from "./Image/tramy.jpg";
+import hoang from "./Image/hoang.jpg";
+import anhthai from "./Image/septhai.jpg";
 import "../styles/Member.css";
 
 const Member = () => {
@@ -68,6 +70,8 @@ const Member = () => {
         />
         <Card imageUrl={vlinh} title="Lý Việt Linh" description="Thành viên" />
         <Card imageUrl={thuyna} title="Phạm Thúy Na" description="Thành viên" />
+      </div>
+      <div className="card-group">
         <Card
           imageUrl={binh}
           title="Nguyễn Vũ Thanh Bình"
@@ -82,6 +86,18 @@ const Member = () => {
           imageUrl={tramy}
           title="Nguyễn Thị Trà My"
           description="Thành viên"
+        />
+      </div>
+      <div className="card-group">
+        <Card
+          imageUrl={hoang}
+          title="Mai Tuấn Hoàng"
+          description="Sếp lớn tự dộng hóa"
+        />
+        <Card
+          imageUrl={anhthai}
+          title="Trần Văn Thái"
+          description="Spiderman đến từ BMA"
         />
       </div>
     </div>
