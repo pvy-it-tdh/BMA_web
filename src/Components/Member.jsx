@@ -14,7 +14,7 @@ import binh from "./Image/binh.jpg";
 import baoanh from "./Image/baoanh.jpg";
 import tramy from "./Image/tramy.jpg";
 import hoang from "./Image/hoang.jpg";
-import anhthai from "./Image/septhai.jpg";
+import anhthai from "./Image/athai.jpg";
 import "../styles/Member.css";
 
 const Member = () => {
