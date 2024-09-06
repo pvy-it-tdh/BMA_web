@@ -15,6 +15,7 @@ import baoanh from "./Image/baoanh.jpg";
 import tramy from "./Image/tramy.jpg";
 import hoang from "./Image/hoang.jpg";
 import anhthai from "./Image/athai.jpg";
+import tuan from "./Image/tuan.jpg";
 import "../styles/Member.css";
 
 const Member = () => {
@@ -99,6 +100,7 @@ const Member = () => {
           title="Trần Văn Thái"
           description="Spiderman đến từ BMA"
         />
+        <Card imageUrl={tuan} title="Lê Đức Tuấn" description="Thành viên" />
       </div>
     </div>
   );
