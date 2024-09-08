@@ -16,6 +16,8 @@ import tramy from "./Image/tramy.jpg";
 import hoang from "./Image/hoang.jpg";
 import anhthai from "./Image/athai.jpg";
 import tuan from "./Image/tuan.jpg";
+import dieuanh from "./Image/dieuanh.jpg";
+import dangduy from "./Image/dangduy.jpg";
 import "../styles/Member.css";
 
 const Member = () => {
@@ -101,6 +103,18 @@ const Member = () => {
           description="Spiderman đến từ BMA"
         />
         <Card imageUrl={tuan} title="Lê Đức Tuấn" description="Thành viên" />
+      </div>
+      <div className="card-group">
+        <Card
+          imageUrl={dieuanh}
+          title="Bùi Thị Diệu Anh"
+          description="Thành viên"
+        />
+        <Card
+          imageUrl={dangduy}
+          title="Trần Đăng Duy"
+          description="Thành viên"
+        />
       </div>
     </div>
   );
