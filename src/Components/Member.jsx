@@ -18,6 +18,7 @@ import anhthai from "./Image/athai.jpg";
 import tuan from "./Image/tuan.jpg";
 import dieuanh from "./Image/dieuanh.jpg";
 import dangduy from "./Image/dangduy.jpg";
+import phucduy from "./Image/pduy.jpg";
 import "../styles/Member.css";
 
 const Member = () => {
@@ -113,6 +114,11 @@ const Member = () => {
         <Card
           imageUrl={dangduy}
           title="Trần Đăng Duy"
+          description="Thành viên"
+        />
+        <Card
+          imageUrl={phucduy}
+          title="Phạm Phúc Duy"
           description="Thành viên"
         />
       </div>
